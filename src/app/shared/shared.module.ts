@@ -9,6 +9,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MaterialModule } from './material/material.module';
 import { AreaComponent } from './widgets/area/area.component';
 import { CardComponent } from './widgets/card/card.component';
+import { PieComponent } from './widgets/pie/pie.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { CardComponent } from './widgets/card/card.component';
     FooterComponent,
     AreaComponent,
     CardComponent,
+    PieComponent,
   ],
   imports: [
     CommonModule,
@@ -33,6 +35,7 @@ import { CardComponent } from './widgets/card/card.component';
     FooterComponent,
     AreaComponent,
     CardComponent,
+    PieComponent,
 
     // Modules
     RouterModule,
