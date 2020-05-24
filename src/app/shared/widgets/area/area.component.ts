@@ -53,7 +53,7 @@ export class AreaComponent implements OnInit {
       }]
     };
 
-    HC_exporting(Highcharts);
+    HC_exporting(this.Highcharts);
 
     setTimeout(() => {
       window.dispatchEvent(
