@@ -8,6 +8,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [],
@@ -21,6 +23,8 @@ import { MatCardModule } from '@angular/material/card';
     MatMenuModule,
     MatListModule,
     MatCardModule,
+    MatPaginatorModule,
+    MatTableModule,
   ],
   exports: [
     MatSidenavModule,
@@ -31,6 +35,8 @@ import { MatCardModule } from '@angular/material/card';
     MatMenuModule,
     MatListModule,
     MatCardModule,
+    MatPaginatorModule,
+    MatTableModule,
   ],
 })
 export class MaterialModule { }
