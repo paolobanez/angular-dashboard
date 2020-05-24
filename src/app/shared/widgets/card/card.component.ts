@@ -24,6 +24,7 @@ export class CardComponent implements OnInit {
         backgroundColor: null,
         borderWidth: 0,
         margin: [2, 2, 2, 2],
+        height: 60,
       },
       title: {
         text: null
